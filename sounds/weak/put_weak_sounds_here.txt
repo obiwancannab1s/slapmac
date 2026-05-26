@@ -1,0 +1,2 @@
+Place weak impact sounds here (.wav or .mp3)
+Example: tap.wav, light_knock.wav, gentle_slap.wav

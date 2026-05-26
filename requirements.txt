@@ -1,0 +1,5 @@
+sounddevice>=0.4.6
+numpy>=1.26.0
+PyQt6>=6.6.0
+PyObjC>=10.0  # Required for MacBook accelerometer support
+pygame>=2.5.0  # Fallback audio backend

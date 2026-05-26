@@ -1,0 +1,2 @@
+Place medium impact sounds here (.wav or .mp3)
+Example: punch.wav, medium_knock.wav, normal_slap.wav

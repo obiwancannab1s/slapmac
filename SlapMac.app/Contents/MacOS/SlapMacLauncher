@@ -1,0 +1,14 @@
+#!/bin/bash
+# Simple launcher that opens the existing SlapMac.command in Terminal
+# Compute project root (parent of the .app bundle)
+SCRIPT_DIR="$(cd "$(dirname "$0")/../../.." && pwd)"
+CMD="$SCRIPT_DIR/SlapMac.command"
+
+if [ -x "$CMD" ]; then
+  # Open the .command file in Terminal (handles spaces properly)
+  open -a Terminal "$CMD"
+else
+  # Fallback: run via AppleScript, ensure path is single-quoted inside the script
+  ESCAPED_DIR=$(printf "%s" "$SCRIPT_DIR" | sed "s/'/'\\''/g")
+  osascript -e "tell application \"Terminal\" to do script \"cd '$ESCAPED_DIR' && ./SlapMac.command\""
+fi

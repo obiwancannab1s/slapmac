@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V7
+.Trashes
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# Local configuration and runtime
+config.json
+*.log
+
+# Build outputs
+dist/
+build/
+*.spec
+
+# Claude Code internal state
+.omc/
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Sounds — user-supplied audio files are not tracked
+sounds/**/*.wav
+sounds/**/*.mp3
+sounds/**/*.WAV
+sounds/**/*.MP3

@@ -1,0 +1,2 @@
+Place brutal impact sounds here (.wav or .mp3)
+Example: explosion.wav, brutal_hit.wav, massive_crash.wav
