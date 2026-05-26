@@ -35,8 +35,6 @@ build/
 *.swp
 *.swo
 
-# Sounds — user-supplied audio files are not tracked
-sounds/**/*.wav
-sounds/**/*.mp3
-sounds/**/*.WAV
-sounds/**/*.MP3
+# User-added sounds are not tracked — only the bundled samples are committed
+# To exclude your own sounds, add patterns here, e.g.:
+# sounds/weak/my_custom_sound.wav
