@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="slapapp.png" width="160" alt="SlapMac">
+</p>
+
 # SlapMac — Impact Detector for MacBook
 
 Slap your MacBook and let it respond. SlapMac listens via the internal microphone, detects chassis impacts, and plays sounds based on how hard you hit.
