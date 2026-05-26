@@ -33,6 +33,16 @@ pip install -r requirements.txt
 python3 app.py
 ```
 
+## First Run on macOS (Gatekeeper)
+
+macOS blocks unsigned scripts downloaded from the internet. Remove the quarantine flag once after cloning:
+
+```bash
+xattr -rd com.apple.quarantine slap_mac/
+```
+
+Then double-click `SlapMac.command` as usual. macOS will also ask for microphone permission on first launch — click **Allow**.
+
 ## Adding Your Own Sounds
 
 Drop WAV or MP3 files into the matching folder:
